@@ -5,14 +5,14 @@
 @import "minima/dark-mode"; 
 
 /*--- CUSTOM STYLES FOR Nighthawkpages ---*/
-@import "minima/Nighthawkpages-styles"; 
-@import "minima/Nighthawkpages-button-styles"; // calculator, binary math styles 
+//@import "minima/Nighthawkpages-styles"; 
+//@import "minima/Nighthawkpages-button-styles"; // calculator, binary math styles 
 @import "minima/dracula/color-highlight-styles";  // Dracula theme
-@import "minima/dracula/platformer-styles";  // platformer game styles 
+//@import "minima/dracula/platformer-styles";  // platformer game styles 
 
 
 /*--- CUSTOM STYLES FOR Minma ---*/
-//@import "minima/leaf/_leaf";  //Leaf theme 
+@import "minima/leaf/_leaf";  //Leaf theme 
 //@import "minima/minimal-mistakes"; //Minimal Mistakes theme 
 //@import "minima/hacker/jekyll-theme-hacker"; //Hacker theme 
 //@import "minima/monophase/main"; //Monophase theme 

@@ -1,9 +1,9 @@
-title: Teacher 2.0
+title: Soni's Blog
 description: "August 2023 to June 2024"
-owner_name: John Mortensen
-github_username: nighthawkcoders
-github_repo: "teacher_portfolio"
-baseurl: "/teacher_portfolio"
+owner_name: Sonika Dhenuva Konda
+github_username: SoniDhenuva
+github_repo: "BetterSoniBlog"
+baseurl: "/BetterSoniBlog"
 future: true
 remote_theme: jekyll/minima
 minima:
