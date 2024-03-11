@@ -82,7 +82,7 @@ hide: true
       }, this.interval);
     }
 
-    animateFlipped(obj, speed, scale = 0.2) {
+    animateFlipped(obj, speed,) {
       let frame = 0;
       const row = obj.row * this.pixels;
       this.currentSpeed = speed;
@@ -91,7 +91,9 @@ hide: true
         this.marioElement.style.backgroundPosition = `-${col}px -${row}px`;
 
         // Flip the image for left movement
-        this.marioElement.style.transform = 'scaleX(-1)';
+        this.marioElement.style.transform = 'scale(-0.2, 0.2)';
+      
+
 
         this.marioElement.style.left = `${this.positionX}px`;
         this.positionX += speed;
