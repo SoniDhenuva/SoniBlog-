@@ -19,6 +19,7 @@ hide: true
 <!--- HTML for page contains <p> tag named "Mario" and class properties for a "sprite"  -->
 
 <p id="mario" class="sprite"></p>
+<audio id="myAudio" src="CantTouchThis2.mp3" loop></audio>
   
 <!--- Embedded Cascading Style Sheet (CSS) rules, 
         define how HTML elements look 
@@ -43,6 +44,18 @@ hide: true
 
 <!--- Embedded executable code--->
 <script>
+  const audioElement = document.getElementById('myAudio');
+
+  function playSong() {
+  if (audioElement.paused) {
+    audioElement.play();
+    console.log("Song is playing!");
+  } else {
+    audioElement.pause();
+    audioElement.currentTime = 0;
+    console.log("Song is paused.");
+  }
+}
   ////////// convert YML hash to javascript key:value objects /////////
   var mario_metadata = {}; //key, value object
   {% for key in hash %}
@@ -188,6 +201,10 @@ hide: true
       }
          // Call the function to set Mario to the resting state
       }
+      else if (event.key === "Shift") {
+        event.preventDefault();
+        playSong();
+      }
   });
   
 
@@ -249,7 +266,7 @@ hide: true
 
 - I love to read!
 
-<img width="400" height ="600" src = "">
+<img width="400" height ="600" src = "IMG_8847 (1).PNG">
 
 
 
