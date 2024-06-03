@@ -170,7 +170,7 @@ const GameSetup = {
       backgrounds: {
         start: { src: "/images/platformer/backgrounds/home.png" },
         hills: { src: "/images/platformer/backgrounds/hills.png" },
-        avenida: { src: "/images/platformer/backgrounds/avenida.png" },
+        avenida: { src: "images/platformer/backgrounds/flowerBackground.png" },
         mountains: { src: "/images/platformer/backgrounds/mountains.jpg" },
         planet: { src: "/images/platformer/backgrounds/planet.jpg" },
         castles: { src: "/images/platformer/backgrounds/castles.png" },
